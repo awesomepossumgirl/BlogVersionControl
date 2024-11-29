@@ -1073,9 +1073,9 @@ hELLO 는 무료인 만큼, 링크의 주소는 반드시 지켜주시기 바랍
         textNodes.forEach(node => {
           node.innerHTML = node.innerHTML.replace(/`(.*?)`/g, '<code>$1</code>');
         });
-
         })
     </script>
     <!-- 백틱으로 인라인 코드블럭 커스텀(24.11.12) 끝 -->
+    <div>test</div>
   </body>
 </html>
